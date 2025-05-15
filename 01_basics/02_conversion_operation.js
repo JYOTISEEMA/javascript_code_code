@@ -42,8 +42,8 @@ let booleanisLoggedIn=Boolean (isLoggedIn);
 
 let isLoggedIn1="Isha";
 let booleanisLoggedIn1=Boolean (isLoggedIn1);
-console.log(typeof(booleanisLoggedIn1));
-console.log(booleanisLoggedIn1);
+// console.log(typeof(booleanisLoggedIn1));
+// console.log(booleanisLoggedIn1);
 
 //  i/p   o/p    type
 //  1     true   boolean
@@ -53,12 +53,27 @@ console.log(booleanisLoggedIn1);
 
 let someNumber=33;
 let stringNumber=String(someNumber)
-console.log(stringNumber);
-console.log(typeof(stringNumber));
+// console.log(stringNumber);
+// console.log(typeof(stringNumber));
 
 //  i/p   o/p    type
 //  33    33     string
 
+
+
+//***********************************operations******************************************** */
+let value=3;
+let negValue=-value;
+console.log(negValue);
+console.log(typeof negValue );
+//  i/p   o/p    type
+//  33    -33    number
+
+
+console.log("1"+2);
+console.log(1+"2");
+console.log(1+2+"3");
+console.log("1"+2+3);
 
 
 
