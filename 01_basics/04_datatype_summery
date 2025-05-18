@@ -1,0 +1,62 @@
+//primitive
+//7 types :String,Number,Boolean,null,Symbol,BigInt
+
+const score=100;
+const score1=100.10;
+
+const isLoggedIn=false;
+const outsideTemp=null;
+let userEmail; //value=undefined
+let useremail1=undefined; // value=undefined
+
+//Symbol
+const id=Symbol('123');
+const anotherId=Symbol('123');
+// console.log(id   ===  anotherId); false
+
+const bigNumber=122345678898898998n;
+
+
+//Reference(nonPrimitive)
+// array,object,function
+
+const heros=["rabi", "Bijan" ,"Jakir"];
+ let myobj={
+    name:    "isha",
+    address: "hYd"
+}
+
+const myFunction=function(){
+    console.log("hello Isha");
+}
+
+
+console.log(typeof outsideTemp);
+
+//////////////////////////stack and heap memory////////////////////////////////////
+
+// stack(primitive)   ,heap(non primitive)
+
+let myName="Isha";
+let yourName=myName;
+
+console.log(myName);
+console.log(yourName);
+
+yourName="Guluri";
+
+console.log(myName);
+console.log(yourName);
+//+++++++++++++
+
+let obj1={
+    name:"seeema",
+    age:25
+}
+let obj2=obj1;
+console.log(obj1);
+console.log(obj2);
+
+obj2.name="jyoti";
+console.log(obj1);
+console.log(obj2);
